@@ -1,6 +1,6 @@
 [build]
   base = "frontend"
-  command = "pnpm install --no-frozen-lockfile && pnpm run build"
+  command = "CI= pnpm install --no-frozen-lockfile && pnpm run build"
   publish = "build"
 
 [[redirects]]
