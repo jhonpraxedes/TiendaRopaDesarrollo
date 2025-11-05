@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pantalon de Hombre",
+    "descripcion": "pantalon formal azul de algodón",
+    "precio": 120,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Blusa de Mujer",
+    "descripcion": "Blusa blanca con encaje",
+    "precio": 150,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG2.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Pantalón Jeans Hombre",
+    "descripcion": "Jeans clásicos azul oscuro, corte recto",
+    "precio": 200,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG3.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Falda Casual Mujer",
+    "descripcion": "Falda corta de mezclilla con bolsillos",
+    "precio": 180,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG4.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Cinturon Unisex Marron",
+    "descripcion": "Cinturon básica unisex 100% Cuero",
+    "precio": 70,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG5.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Sudadera Hombre",
+    "descripcion": "Sudadera gris con cierre, capucha ajustable",
+    "precio": 250,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG6.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Vestido Floral Mujer",
+    "descripcion": "Vestido casual de flores con tirantes finos",
+    "precio": 230,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG7.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Pantalon Hombre",
+    "descripcion": "Pantalon de gamusa sintético varios colores",
+    "precio": 300,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG8.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Leggings Mujer",
+    "descripcion": "Leggings negros elásticos de lycra",
+    "precio": 95,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG9.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Gorra Unisex",
+    "descripcion": "Gorra ajustable estilo urbano",
+    "precio": 60,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG10.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Camisa Casual Hombre",
+    "descripcion": "Camisa manga corta estampada",
+    "precio": 110,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG11.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Blusa Rosada Mujer",
+    "descripcion": "Blusa con volantes ligera y fresca",
+    "precio": 130,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG12.png"
+  },
+  {
+    "id": 13,
+    "nombre": "Pantalón Chino Hombre",
+    "descripcion": "Pantalón beige, corte moderno",
+    "precio": 210,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG13.png"
+  },
+  {
+    "id": 14,
+    "nombre": "Short Mujer",
+    "descripcion": "Short de mezclilla de tiro alto",
+    "precio": 120,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG14.png"
+  },
+  {
+    "id": 15,
+    "nombre": "Playera Negra Unisex",
+    "descripcion": "Playera negra lisa 100% algodón",
+    "precio": 75,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG15.png"
+  },
+  {
+    "id": 16,
+    "nombre": "Suéter Hombre",
+    "descripcion": "Suéter tejido azul marino cuello redondo",
+    "precio": 190,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG16.png"
+  },
+  {
+    "id": 17,
+    "nombre": "Vestido Elegante Mujer",
+    "descripcion": "Vestido negro formal para eventos",
+    "precio": 280,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG17.png"
+  },
+  {
+    "id": 18,
+    "nombre": "Chamarra Hombre",
+    "descripcion": "Chamarra de mezclilla azul con botones",
+    "precio": 270,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG18.png"
+  },
+  {
+    "id": 19,
+    "nombre": "Bolsa de Mano Mujer",
+    "descripcion": "Bolsa pequeña de cuero sintético beige",
+    "precio": 160,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG19.png"
+  },
+  {
+    "id": 20,
+    "nombre": "Bufanda Unisex",
+    "descripcion": "Bufanda de lana gris suave",
+    "precio": 85,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG20.png"
+  },
+  {
+    "id": 21,
+    "nombre": "Pantalón Jogger Hombre",
+    "descripcion": "Pantalón deportivo gris con cuerda ajustable",
+    "precio": 180,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG21.png"
+  },
+  {
+    "id": 22,
+    "nombre": "Camisa Blanca Mujer",
+    "descripcion": "Camisa formal blanca manga larga",
+    "precio": 190,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG22.png"
+  },
+  {
+    "id": 23,
+    "nombre": "Sudadera Canguro Hombre",
+    "descripcion": "Sudadera con capucha tipo canguro",
+    "precio": 220,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG23.png"
+  },
+  {
+    "id": 24,
+    "nombre": "Pantalón Legging Mujer",
+    "descripcion": "Legging deportivo con diseño moderno",
+    "precio": 130,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG24.png"
+  },
+  {
+    "id": 25,
+    "nombre": "Sombrero Unisex",
+    "descripcion": "Sombrero de ala ancha para paseo",
+    "precio": 100,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG25.png"
+  },
+  {
+    "id": 26,
+    "nombre": "Chaleco Hombre",
+    "descripcion": "Chaleco acolchado negro ligero",
+    "precio": 250,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG26.png"
+  },
+  {
+    "id": 27,
+    "nombre": "Vestido Rojo Mujer",
+    "descripcion": "Vestido corto rojo para fiesta",
+    "precio": 260,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG27.png"
+  },
+  {
+    "id": 28,
+    "nombre": "Cinturón Hombre",
+    "descripcion": "Cinturón de cuero café con hebilla metálica",
+    "precio": 80,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG28.png"
+  },
+  {
+    "id": 29,
+    "nombre": "Aretes Mujer",
+    "descripcion": "Aretes dorados elegantes con perlas",
+    "precio": 90,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG29.png"
+  },
+  {
+    "id": 30,
+    "nombre": "Mochila Unisex",
+    "descripcion": "Mochila casual negra para uso diario",
+    "precio": 210,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG30.png"
+  },
+  {
+    "id": 31,
+    "nombre": "Camisa Cuadros Hombre",
+    "descripcion": "Camisa de franela con cuadros rojos",
+    "precio": 185,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG31.png"
+  },
+  {
+    "id": 32,
+    "nombre": "Blazer Mujer",
+    "descripcion": "Saco blazer formal gris claro",
+    "precio": 270,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG32.png"
+  },
+  {
+    "id": 33,
+    "nombre": "Pantalón Cargo Hombre",
+    "descripcion": "Pantalón cargo verde militar con bolsillos",
+    "precio": 240,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG33.png"
+  },
+  {
+    "id": 34,
+    "nombre": "Falda Larga Mujer",
+    "descripcion": "Falda estampada fluida con resorte ajustable",
+    "precio": 190,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG34.png"
+  },
+  {
+    "id": 35,
+    "nombre": "Playera Unisex Gris",
+    "descripcion": "Playera gris básica con costura reforzada",
+    "precio": 85,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG35.png"
+  },
+  {
+    "id": 36,
+    "nombre": "Chumpa Hombre",
+    "descripcion": "Chumpa impermeable azul marino con cierre",
+    "precio": 260,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG36.png"
+  },
+  {
+    "id": 37,
+    "nombre": "Pijama Mujer",
+    "descripcion": "Pijama de dos piezas rosa pastel",
+    "precio": 150,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG37.png"
+  },
+  {
+    "id": 38,
+    "nombre": "Chalina Unisex",
+    "descripcion": "Chalina de algodón ligera color beige",
+    "precio": 90,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG38.png"
+  },
+  {
+    "id": 39,
+    "nombre": "Camisa Polo Hombre",
+    "descripcion": "Camisa polo gris con cuello negro",
+    "precio": 170,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG39.png"
+  },
+  {
+    "id": 40,
+    "nombre": "Vestido Largo Mujer",
+    "descripcion": "Vestido largo azul marino elegante",
+    "precio": 310,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG40.png"
+  },
+  {
+    "id": 41,
+    "nombre": "Reloj Unisex",
+    "descripcion": "Reloj digital con pulsera de silicón",
+    "precio": 230,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG41.png"
+  },
+  {
+    "id": 42,
+    "nombre": "Abrigo Hombre",
+    "descripcion": "Abrigo de lana color gris oscuro",
+    "precio": 320,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG42.png"
+  },
+  {
+    "id": 43,
+    "nombre": "Top Deportivo Mujer",
+    "descripcion": "Top ajustado para entrenamiento",
+    "precio": 110,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG43.png"
+  },
+  {
+    "id": 44,
+    "nombre": "Gafas Unisex",
+    "descripcion": "Gafas de sol con montura negra",
+    "precio": 140,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG44.png"
+  },
+  {
+    "id": 45,
+    "nombre": "Camisa Manga Larga Hombre",
+    "descripcion": "Camisa blanca de lino para verano",
+    "precio": 200,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG45.png"
+  },
+  {
+    "id": 46,
+    "nombre": "Blusa Estampada Mujer",
+    "descripcion": "Blusa con estampado floral colorido",
+    "precio": 160,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG46.png"
+  },
+  {
+    "id": 47,
+    "nombre": "Pantalón Deportivo Unisex",
+    "descripcion": "Pantalón deportivo negro con franjas laterales",
+    "precio": 180,
+    "categoria": "Unisex",
+    "imagen": "img/productos/IMG47.png"
+  },
+  {
+    "id": 48,
+    "nombre": "Chaqueta Jeans Hombre",
+    "descripcion": "Chaqueta estilo denim color azul claro",
+    "precio": 290,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG48.png"
+  },
+  {
+    "id": 49,
+    "nombre": "Bolso Tote Mujer",
+    "descripcion": "Bolso grande tipo tote color negro",
+    "precio": 200,
+    "categoria": "Mujer",
+    "imagen": "img/productos/IMG49.png"
+  },
+  {
+    "id": 50,
+    "nombre": "Camisa manga larga ",
+    "descripcion": "Camisa manga corta estampada",
+    "precio": 95,
+    "categoria": "Hombre",
+    "imagen": "img/productos/IMG50.png"
+  }
+]

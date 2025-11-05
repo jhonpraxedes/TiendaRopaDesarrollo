@@ -1,0 +1,13 @@
+/* frontend/src/App.css */
+main {
+  padding-top: 12px;
+}
+section h2 {
+  color: var(--accent);
+  margin: 8px 0 16px;
+}
+.filtros select, .filtros button {
+  min-height: 40px;
+}
+/* Ajustes leves para inputs de checkout si quieres */
+.card label { color: var(--text-dim); font-size: 14px; }

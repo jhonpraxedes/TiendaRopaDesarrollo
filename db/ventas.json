@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-11-04T21:13:41.524Z",
+    "cliente": {
+      "nombre": "Praxedes salazar",
+      "telefono": "41419541",
+      "direccion": {
+        "calle": "7 ave barrio el centro",
+        "ciudad": "santa rosa oratorio",
+        "depto": "santa rosa",
+        "referencias": "dafgdgsaf"
+      }
+    },
+    "entrega": "domicilio",
+    "pago": "tarjeta",
+    "notas": "bhaflsdkldsf",
+    "items": [
+      {
+        "id": 1,
+        "nombre": "Camisa de Hombre",
+        "precio": 120,
+        "subtotal": null
+      },
+      {
+        "id": 2,
+        "nombre": "Blusa de Mujer",
+        "precio": 150,
+        "subtotal": null
+      }
+    ],
+    "total": null,
+    "estado": "pendiente"
+  }
+]
