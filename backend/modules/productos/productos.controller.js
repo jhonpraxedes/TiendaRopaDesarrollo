@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const productosPath = path.join(__dirname, '../../../db/productos.json');
+// productos.json en praxshopdw/db/productos.json
+const productosPath = path.join(global.REPO_ROOT, 'db', 'productos.json');
 
 const leerProductos = () =>
   JSON.parse(fs.readFileSync(productosPath, 'utf8'));

@@ -4,6 +4,8 @@ const path = require('path');
 
 const app = express();
 const ventasRoutes = require('./modules/ventas/ventas.routes');
+// server.js
+global.REPO_ROOT = path.join(__dirname, '..'); // __dirname aquí es backend/, sube a praxshopdw/
 app.use('/api/ventas', ventasRoutes);
 app.use(cors());
 app.use(express.json()); // ¡Importante para req.body!
