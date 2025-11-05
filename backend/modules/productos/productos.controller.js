@@ -1,22 +1,21 @@
 const fs = require('fs');
 const path = require('path');
 
-// productos.json en praxshopdw/db/productos.json
+// Usa la raíz definida en server.js:
+// en server.js debes tener: global.REPO_ROOT = path.join(__dirname, '..');
 const productosPath = path.join(global.REPO_ROOT, 'db', 'productos.json');
+console.log('[productosPath]', productosPath);
 
-const leerProductos = () =>
-  JSON.parse(fs.readFileSync(productosPath, 'utf8'));
-
-const guardarProductos = (data) =>
-  fs.writeFileSync(productosPath, JSON.stringify(data, null, 2));
+const leerProductos = () => JSON.parse(fs.readFileSync(productosPath, 'utf8'));
+const guardarProductos = (data) => fs.writeFileSync(productosPath, JSON.stringify(data, null, 2));
 
 exports.obtenerProductos = (req, res) => {
   try {
     const productos = leerProductos();
     res.json(productos);
   } catch (error) {
-    console.error('Error al obtener productos:', error);
-    res.status(500).json({ error: 'Error del servidor' });
+    console.error('Error al obtener productos:', error?.message, 'path:', productosPath);
+    res.status(500).json({ error: `Error del servidor: ${error?.message}` }); // temporal
   }
 };
 
@@ -31,19 +30,19 @@ exports.agregarProducto = (req, res) => {
     guardarProductos(productos);
     res.status(201).json(nuevo);
   } catch (error) {
-    console.error('Error al agregar producto:', error);
-    res.status(500).json({ error: 'Error al guardar producto' });
+    console.error('Error al agregar producto:', error?.message, 'path:', productosPath);
+    res.status(500).json({ error: `Error al guardar producto: ${error?.message}` }); // temporal
   }
 };
 
 exports.eliminarProducto = (req, res) => {
   try {
     let productos = leerProductos();
-    productos = productos.filter(p => p.id !== parseInt(req.params.id));
+    productos = productos.filter(p => p.id !== parseInt(req.params.id, 10));
     guardarProductos(productos);
     res.json({ mensaje: 'Producto eliminado' });
   } catch (error) {
-    console.error('Error al eliminar producto:', error);
-    res.status(500).json({ error: 'No se pudo eliminar producto' });
+    console.error('Error al eliminar producto:', error?.message, 'path:', productosPath);
+    res.status(500).json({ error: `No se pudo eliminar producto: ${error?.message}` }); // temporal
   }
 };
