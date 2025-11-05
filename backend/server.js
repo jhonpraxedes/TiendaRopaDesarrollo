@@ -18,7 +18,7 @@ const usuariosRoutes = require('./modules/usuarios/usuarios.routes');
 app.use('/api/productos', productosRoutes);
 app.use('/api/usuarios', usuariosRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Backend escuchando en http://localhost:${PORT}`);
 });
