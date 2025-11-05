@@ -9,10 +9,10 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "^18.x.x",
-    "react-dom": "^18.x.x",
-    "react-router-dom": "^7.9.5",
-    "react-scripts": "5.x.x"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "7.9.5",
+    "react-scripts": "5.0.1"
   },
   "browserslist": {
     "production": [
@@ -27,6 +27,6 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^7.0.1"
+    "eslint-plugin-react-hooks": "4.6.0"
   }
 }
