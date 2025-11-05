@@ -7,8 +7,8 @@ const productosPath = path.join(global.REPO_ROOT, 'db', 'productos.json');
 console.log('[productosPath]', productosPath);
 
 const leerProductos = () => JSON.parse(fs.readFileSync(productosPath, 'utf8'));
-const guardarProductos = (data) => fs.writeFileSync(productosPath, JSON.stringify(data, null, 2));
-
+const guardarProductos = (data) =>
+  fs.writeFileSync(productosPath, JSON.stringify(data, null, 2));
 exports.obtenerProductos = (req, res) => {
   try {
     const productos = leerProductos();

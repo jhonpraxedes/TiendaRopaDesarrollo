@@ -5,7 +5,7 @@ const path = require('path');
 // server.js
 global.REPO_ROOT = path.join(__dirname, '..'); // __dirname aquí es backend/, sube a praxshopdw/
 
-
+console.log('[REPO_ROOT]', global.REPO_ROOT);
 const app = express();
 const ventasRoutes = require('./modules/ventas/ventas.routes');
 
