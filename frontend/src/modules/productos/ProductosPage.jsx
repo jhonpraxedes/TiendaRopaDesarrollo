@@ -6,25 +6,25 @@ function ProductosPage({ categoria }) {
   const [filtroPrecio, setFiltroPrecio] = useState('todos');
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/productos')
-      .then(res => res.json())
-      .then(data => {
+    // Usa la URL base configurada en REACT_APP_API_BASE o localhost en dev
+    fetch(api.productos)
+      .then((res) => res.json())
+      .then((data) => {
         let lista = data;
-        if (categoria) lista = lista.filter(p => p.categoria === categoria);
+        if (categoria) lista = lista.filter((p) => p.categoria === categoria);
 
         if (filtroPrecio === '0-100') {
-          lista = lista.filter(p => p.precio <= 100);
+          lista = lista.filter((p) => p.precio <= 100);
         } else if (filtroPrecio === '100-200') {
-          lista = lista.filter(p => p.precio > 100 && p.precio <= 200);
+          lista = lista.filter((p) => p.precio > 100 && p.precio <= 200);
         } else if (filtroPrecio === '200-300') {
-          lista = lista.filter(p => p.precio > 200 && p.precio <= 300);
+          lista = lista.filter((p) => p.precio > 200 && p.precio <= 300);
         }
         setProductos(lista);
       })
-      .catch(err => console.error('Error productos:', err));
+      .catch((err) => console.error('Error productos:', err));
   }, [categoria, filtroPrecio]);
 
-  // Aquí defines la función
   const addToCart = (prod) => {
     const actual = JSON.parse(localStorage.getItem('carrito') || '[]');
     actual.push(prod);
@@ -53,7 +53,7 @@ function ProductosPage({ categoria }) {
             productos.map((prod) => (
               <div key={prod.id} className="producto-card">
                 <img
-                  src={`http://localhost:3001/public/${prod.imagen}`}
+                  src={`${api.public}/${prod.imagen}`} // usa la base pública correcta
                   alt={prod.nombre}
                   onError={(e) => {
                     e.currentTarget.src =
@@ -65,10 +65,7 @@ function ProductosPage({ categoria }) {
                 <p>{prod.descripcion}</p>
                 <div className="precio">Q{prod.precio.toFixed(2)}</div>
 
-                {/* Aquí usas la función en el botón */}
-                <button onClick={() => addToCart(prod)}>
-                  Agregar al Carrito
-                </button>
+                <button onClick={() => addToCart(prod)}>Agregar al Carrito</button>
               </div>
             ))
           )}
